@@ -43,11 +43,12 @@ article {
 }
 
 footer {
-    float: left;
+    float: center;
     background-color: #bc68aa;
-    padding: 50px;
+    padding: 100px;
     text-align: center;
     color: white;
+    background-image: url("../images/img_005.jpg");
 }
 
 div {
@@ -62,6 +63,44 @@ div {
         margin-right: auto;
         width: 120%;
     }
+}
+
+.row {
+    display: center;
+    content: "";
+    clear: both;
+    display: table
+}
+
+.column {
+    float: center;
+    padding: 4000px;
+}
+
+.row1 {
+    display: center;
+    content: "";
+    clear: both;
+    display: table
+}
+
+.column1 {
+    float: center;
+
+    padding: 5px;
+}
+
+.row2 {
+    display: center;
+    content: "";
+    clear: both;
+    display: table
+}
+
+.column2 {
+    float: center;
+
+    padding: 5px;
 }
 
 @media (max-width: 600px) {

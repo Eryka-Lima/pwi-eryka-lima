@@ -35,7 +35,7 @@ article {
     background-color: #6c72a5;
     height: 300px;
 
-    p {
+    div {
         text-align: justify;
         text-justify: inter-word;
     }
@@ -47,7 +47,6 @@ section::after {
     display: table;
     clear: both;
 }
-
 
 footer {
     background-color: #bc68aa;
